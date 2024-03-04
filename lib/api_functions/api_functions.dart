@@ -5,8 +5,6 @@ import 'package:netflix/screenss/new_hot/date_convert.dart';
 import 'package:netflix/screenss/value_notifier/valuenotifer.dart';
 
 String apikey = "60bb087ce9dac9f60c46402d44e7dcfa";
-String acesstokenauth =
-    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2MGJiMDg3Y2U5ZGFjOWY2MGM0NjQwMmQ0NGU3ZGNmYSIsInN1YiI6IjY1ZTAxMWQyMmQ1MzFhMDE4NWJmN2ZhZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wValHWF2WfnDgpD_D3SLsJqr9GLBbQgYJXISUmDyIVQ";
 String imageUrl = "https://image.tmdb.org/t/p/w500";
 
 loadpopularmovies() async {
