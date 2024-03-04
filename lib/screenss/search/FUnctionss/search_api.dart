@@ -15,8 +15,10 @@ import 'package:http/http.dart' as http;
     final items = jsonDecode(body);
     searchMovieTitles.value = items['results'];
     // print("shadin${searchMovieTitles.value}");
+    // ignore: invalid_use_of_visible_for_testing_member, invalid_use_of_protected_member
     searchMovieTitles.notifyListeners();
     isLoading.value = false;
+    // ignore: invalid_use_of_protected_member, invalid_use_of_visible_for_testing_member
     isLoading.notifyListeners();
   }
 }
